@@ -1,5 +1,5 @@
-1.system calls currently running process and parent display same.
-Algorithm:-
+1.system calls currently running process and parent display same.\
+Algorithm:-\
 step1:Include necessary header files like stdio.h,stdlib.h,unistd.h,sys/types.h
 step2:-use the fork()system call to create new process
 step3:-check if forking is successfull
