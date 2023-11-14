@@ -54,3 +54,120 @@ step2:-Initialise variables\
 step3:-process scheduling\
 step4:-display output\
 step5:-End of program
+
+7.cprogram to implement nonpreemptive sjf algorithm\
+Algorithm:-\
+step1:-Input(Enter number of process)\
+step2:-sort the process based on their burst time in ascending order\
+step3:-Initialisation step4:-for each process from 1 to n\
+step5:-calculate average waiting time\
+step6:-calculate average turnaroundtime\
+step7:-End of program
+
+8.cprogram to simulate roundrobin scheduling algorithm with c\
+Algorithm:-\
+step1:-Input(number of processes)\
+step2:-Initialise an empty queue to store process\
+step3:-while there are processed in queue or any process has remaining bursttime\
+step4:-End of program
+
+9.the concept of interprocess communication using shared memory with c program\
+Algorithm:- step1:-create shared memory segment to process\
+step2:-Attach share memory segment to process\
+step3:-Read\write data to\from sharedmemory\
+step4:-Detach share memory segment\
+step5:-Remove shared memory segment\
+step6:-End of program
+
+10.cprogram for interprocessing communication using messagequeue\
+Algorithm:-\
+step1:-create a message queue\
+step2:-send a message\
+step3:-Recieve a message\
+step4:-Remove the message queue\
+step5:-End of program
+
+11.c program for multithreading Algoritm:-\
+step1:-Include necessary header file\
+step2:-Define the threadfunction\
+step3:-create threads\
+step4:-join threads\
+step5:-compile and run program\
+step6:-End of program
+
+12.cprogram for Dining Philosophers problem\
+Algorithm:-\
+step1:-Initialization\
+step2:-philospher behaviour\
+step3:-Handling forks\
+step4:-synchronization\
+step5:-Implementation using loop\
+step6:-End of program
+
+13.c program for various memory allocation strategies\
+Algorithm:-\
+step1:-Input(enter memorysize)\
+step2:-Initialisation(set found flag to 0)\
+step3:-loop through memoryblocks\
+step4:-if 'found'flag is 1,memory allocated successfully\
+step5:-if 'found'flag is 0,not enough space is available for allocation\
+step6:-End of program
+
+14.c program for organisefile using singlelevel directory\
+Algorithm:-\
+step1:-file structure\
+step2:-Directory structure(not needed for single level directory)\
+step3:-operation(like create newfile,delete file,list file,search file,Exit)\
+step4:-Enter the operation to perform step5:-file can be created ,listed,updated it continue till exit\
+step6:-End of program
+
+15.c program to organize file using two level directory structure\
+Algorithm:-\
+step1:-file structure(structfile contain attributes suchas name,size)\
+step2:-struct directory(directory attribute suchas name,list of files)\
+step3:-Enter directoryname and parent directory\
+step4:-perform operation(create directory,create file,delete file,listfile,exit)\
+step5:-Initialize filesystem\
+step6:-End of program
+
+16.c program for implementing random access file for processing employee details\
+Algorithm:-\
+step1:-Include necessary headerfiles\
+step2:-Define employee structure\
+step3:-open or create random access file\
+step4:-Implement functions for various operations\
+step5:-Implement main menu loop\
+step6:-close file and exit\
+step7:-compile and run program\
+step8:-handle errors and edge cases\
+step9:-test the program\
+step10:-End of program
+
+17.deadlock avoidance concept by simulating bankers algorithm with c\
+Algorithm:-\
+step1:-Include necessary headerfiles\
+step2:-Define constants\
+step3:-Declare global variables\
+step4:-Initialise function\
+step5:-Request resource function\
+step6:-safety check function\
+step7:-End of program
+
+18.c program to simulate producer consumer problem using semaphores\
+Algorithm:-\
+step1:-Include necessary header files\
+step2:-Define constants\
+step3:-Declare global variables\
+step4:-Initialise semaphores\
+step5:-Define producer function\
+step6:-End of program
+
+19.cprogram to implement synchronization using mutex locks\
+Algorithm:-\
+step1:-Include necesssary headerfiles\
+step2:Declare global variables\
+step3:-Initialise mutex\
+step4:-define first thread function\
+step5:-define second thread function\
+step6:-handling errors and edge cases\
+step7:-End of program
